@@ -44,20 +44,29 @@ p {
     margin: 30px;
 }
 
-.frameWidth {
-margin: 0px 10%;
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+.txtMarg {
+    margin: 25px 0px;
+    ;
 }
 
 #genFrame {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 460px;   
-    height: 500px;
+    width: 380px;   
+    height: 90vh;
     border: 4px solid #fe7333;
     border-radius: 10%;
-    margin-top: 5%;
+    margin-top: 3vh;
+
 }
 
 #iconRow {
@@ -66,18 +75,6 @@ margin: 0px 10%;
     justify-content: space-between;
     width: 100%;
 } 
-
-#welcomeInfo {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 270px;
-    height: 90px;
-    text-align: center;
-    margin: 0px;
-    margin-top: 5px;
-    display: none;
-}
 
 #outputRowContent {
     max-width: fit-content;
@@ -92,7 +89,7 @@ margin: 0px 10%;
     background-color: #222222;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
-    width: 360px;
+    width: 320px;
     height: 50px;
 }
 
@@ -119,5 +116,38 @@ margin: 0px 10%;
     margin-bottom: 1px;
     padding:  5px 20px 5px 20px;
 }
+
+#welcomeFrame {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 380px;   
+    height: 90vh;
+    border: 4px solid #fe7333;
+    border-radius: 10%;
+    margin-top: 3vh;
+}
+
+
+
+#welcomeInfo {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 270px;
+    height: 90px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 5px;
+    display: none;
+}
+
+#txtBlock {
+    justify-content: space-around;
+    width: 90%;
+    text-align: center;
+}
+
+
 
 

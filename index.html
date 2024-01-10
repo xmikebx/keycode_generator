@@ -8,14 +8,10 @@
 </head>
 <body>
 
-    <div id="genFrame" class="bgCol frameWidth">
+    <div id="genFrame" class="bgCol show">
         <div id="iconRow">
-            <img src="./data_object.svg" class="icon alignLeft" alt="App Logo">
-            <div id="welcomeInfo">
-                <p class="white regular">Welcome to my Keycode Generator.</p>
-                <p class="white regular">You can generate up to 2 Key Codes by pressing the required Key/s. Use the reset to start over.</p>
-            </div>
-            <img id="infoIcon" class="icon alignLeft" src="./info.svg"  alt="Clear Selection">
+            <img src="./images/data_object.svg" class="icon alignLeft" alt="App Logo">
+            <img id="infoIcon" class="icon alignLeft" src="./images/info.svg"  alt="Show Info">
         </div>
         <h1 class="white bold">Keycode Generator</h1>
         <p class="white regular">Type any key to generate the keycode</p>
@@ -24,7 +20,20 @@
             </ul>
             <p id="keyCode" class="white regular alignLeft">Key Code: </p>
         <div id="btnRowContent">
-            <button id="btn" class="white regular"><img src="./restart_alt.svg" class="icon" alt="Clear Selection"><a href="javascript: reload()"></a>Reset</button>
+            <button id="btn" class="white regular"><img src="./images/restart_alt.svg" class="icon" alt="Clear Selection"><a href="javascript: reload()"></a>Reset</button>
+        </div>
+    </div>
+
+    <div id="welcomeFrame" class="bgCol hide">
+        <div id="iconRow">
+            <img src="./images/data_object.svg" class="icon alignLeft" alt="App Logo">
+            <img id="closeIcon" class="icon alignLeft" src="./images/cancel.svg"  alt="Close Welcome info">
+        </div>
+        <div id="txtBlock">
+            <h1 class="white bold">WELCOME!</h1>
+                <p id="welc1" class="white regular txtMarg"></p>
+                <p id="welc2" class="white regular txtMarg"></p>
+                <p id="welc3" class="white regular"></p>
         </div>
     </div>
     <script src="./script.js"></script>
