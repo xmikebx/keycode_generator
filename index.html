@@ -11,8 +11,11 @@
     <div id="genFrame" class="bgCol show">
         <div id="iconRow">
             <img src="./images/data_object.svg" class="icon alignLeft" alt="App Logo">
-            <input type="image" id="mobIcon" class="icon alignLeft" src="./images/mobile_friendly.svg" alt="Mobile Friendly Input">
+            <img id="mobIcon" src="./images/mobile_friendly.svg" class="icon alignLeft" alt="Mobile Friendly Input">
             <img id="infoIcon" class="icon alignLeft" src="./images/info.svg"  alt="Show Info">
+        </div>
+        <div id="mobFriendly">
+            <input type="text" id="mobInputTXT" placeholder="Mobile Input"></input>
         </div>
         <h1 class="white bold">Keycode Generator</h1>
         <p class="white regular">Type any key to generate the keycode</p>
@@ -20,6 +23,12 @@
                 <li id="keyEvent" class="themeCol" type="text"></li>
             </ul>
             <p id="keyCode" class="white regular alignLeft">Key Code: </p>
+
+            <div>
+
+
+            </div>
+
         <div id="btnRowContent">
             <button id="btn" class="white regular"><img src="./images/restart_alt.svg" class="icon" alt="Clear Selection"><a href="javascript: reload()"></a>Reset</button>
         </div>

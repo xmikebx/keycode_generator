@@ -77,14 +77,18 @@ p {
 } 
 
 #mobIcon {
-    display: flex;
+    display: none;
+}
+
+#mobFriendly {
+    display: none;
 }
 
 #outputRowContent {
     max-width: fit-content;
     background-color: #222222;
     border: 2px solid #2c2c2c;
-  }
+}
 
 #keyEvent {
     display: flex;
@@ -152,6 +156,40 @@ p {
     text-align: center;
 }
 
+
+
+
+
+@media (max-width: 720px) {
+
+
+#mobIcon {
+    display: flex;
+}
+    
+#mobFriendly {
+    display: flex;
+}
+
+#genFrame {
+    height: 85vh;
+    border-radius: 15%;
+
+}
+
+#welcomeFrame {
+    height: 85vh;
+    border-radius: 15%;
+
+}
+
+
+
+
+
+
+
+}
 
 
 
