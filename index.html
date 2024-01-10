@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="genFrame" class="bgCol">
+        <div id="iconRow">
+            <img src="./data_object.svg" class="icon alignLeft" alt="App Logo">
+            <div id="welcomeInfo">
+                <p class="white regular">Welcome to my Keycode Generator.</p>
+                <p class="white regular">You can generate up to 2 Key Codes by pressing the required Key/s. Use the reset to start over.</p>
+            </div>
+            <img id="infoIcon" class="icon alignLeft" src="./info.svg"  alt="Clear Selection">
+        </div>
+        <h1 class="white bold">Keycode Generator</h1>
+        <p class="white regular">Type any key to generate the keycode</p>
+            <ul id="outputRowContent">
+                <li id="keyEvent" class="themeCol" type="text"></li>
+            </ul>
+            <p id="keyCode" class="white regular alignLeft">Key Code: </p>
+        <div id="btnRowContent">
+            <button id="btn" class="white regular"><img src="./restart_alt.svg" class="icon" alt="Clear Selection"><a href="javascript: reload()"></a>Reset</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
