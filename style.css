@@ -76,6 +76,10 @@ p {
     width: 100%;
 } 
 
+#mobIcon {
+    display: flex;
+}
+
 #outputRowContent {
     max-width: fit-content;
     background-color: #222222;
